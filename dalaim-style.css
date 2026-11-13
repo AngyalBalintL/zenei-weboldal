@@ -29,7 +29,7 @@ body {
 .csakadalaim {
     background-color: rgb(187, 241, 241);
     padding: 20px;
-    max-width: 800px;
+    max-width: 800px; /* Hagyd meg 800px-en, hogy ne húzódjon szét túlságosan! */
     border-radius: 30px;
 }
 #alsoinfo {
@@ -40,7 +40,7 @@ background-color: rgb(187, 241, 241);
 }
 .dalszoveg {
     background-color: rgb(187, 241, 241);
-    max-width: 300px;
+    max-width: 900px; /* Emeld fel 300px-ről, hogy szélesebb legyen! */
     border-radius: 30px;
     padding: 20px;
 }
