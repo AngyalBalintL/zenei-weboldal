@@ -24,12 +24,12 @@ body {
     border-radius: 50%;
 }
 #rolamszoveg {
-    max-width: 700px;     
-    margin-left: 20px;  
-    margin-top: 0;  
+    max-width: 900px; /* Ne legyen lekorlátozva túl keskenyre */
+    margin-left: 0;   /* Így nem tolódik el feleslegesen */
+    margin-top: 0;
 }
 .rolamegesz {
-    font-size: 40px;
+    font-size: 16px;
 }
 .rolamegymasmellet {
     display: flex;
@@ -47,7 +47,7 @@ body {
     background-color: rgb(187, 241, 241);
     padding: 20px;
     border-radius: 30px;
-    font-size: 30px;
+    font-size: 16px;
 }
 .spotifydoboz {
     max-width: 1500px; 
@@ -86,9 +86,9 @@ header.fejlec h1 {
 }
 .navalattiegeszwebodal {
     width: 90%;
-    max-width: 800px;
-    margin: 15px 0; 
-    padding: 10px;
+    max-width: 1200px; /* Emeld fel 800px-ről 1200px-re, hogy szélesebb legyen gépen! */
+    margin: 15px 0;
+    padding: 20px;     /* Ezen is picit növelhetsz, hogy szellősebb legyen */
     box-sizing: border-box;
-    text-align: left; 
+    text-align: left;
 }
