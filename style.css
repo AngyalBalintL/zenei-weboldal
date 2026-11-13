@@ -67,7 +67,7 @@ h1 {
     overflow-wrap: break-word;
 }
 #logokeret {
-    max-width: 250px;
+    width: 200px;
     height: auto;
     display: block;
 }
