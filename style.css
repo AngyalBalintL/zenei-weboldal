@@ -1,0 +1,63 @@
+body {
+    background-color: aqua;
+}
+#navkozepre {
+    text-align: center;
+}
+.fejlec {
+    display:flex;
+    align-items: center;
+    gap: 40px;
+}
+.fejlec h1 {
+    font-size: 5.6rem;
+    font-family: "Exile", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.navszoveg {
+    font-size: larger;
+}
+#logokeret {
+    border: 5px solid #000000;
+    border-radius: 50%;
+}
+#rolamszoveg {
+    max-width: 700px;     
+    margin-left: 20px;  
+    margin-top: 0;  
+}
+.rolamegesz {
+    font-size: 40px;
+}
+.rolamegymasmellet {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.rolamegymasmellet img {
+    width: 300px;
+    height: auto;
+    align-items: center;
+    border: 3px solid #000000;
+}
+.zeneihangszerekfelszerelesekegeszszoveg {
+    background-color: rgb(187, 241, 241);
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.spotifydoboz {
+    max-width: 1500px; 
+    margin-top: 20px;
+    border: 3px solid #000000; 
+    border-radius: 15px;      
+    overflow: hidden;         
+}
+.hirekegesz {
+    font-size: 30px;
+    background-color: rgb(187, 241, 241);
+    padding: 20px;
+    border-radius: 30px;
+}

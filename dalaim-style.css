@@ -1,0 +1,70 @@
+body {
+    background-color: aqua;
+}
+#navkozepre {
+    text-align: center;
+}
+.fejlec {
+    display:flex;
+    align-items: center;
+    gap: 40px;
+}
+.fejlec h1 {
+    font-size: 5.6rem;
+    font-family: "Exile", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.navszoveg {
+    font-size: larger;
+}
+#logokeret {
+    border: 5px solid #000000;
+    border-radius: 50%;
+}
+    .dalaimszoveg {
+        font-size: 15px;
+    }
+.csakadalaim {
+    background-color: rgb(187, 241, 241);
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 30px;
+}
+#alsoinfo {
+background-color: rgb(187, 241, 241);
+ max-width: 800px;
+    border-radius: 30px;
+     padding: 20px;
+}
+.dalszoveg {
+    background-color: rgb(187, 241, 241);
+    max-width: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.dalszovegresz {
+    display: flex;
+    gap: 30px;              
+    align-items: flex-start; 
+}
+
+.dalszovegkepbox {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;              
+}
+
+.dalszovegkepbox img {
+    width: 300px;
+    height: auto;
+    border: 5px solid #000000;
+    border-radius: 8px;
+}
+.spotifydoboz {
+    max-width: 1500px; 
+    margin-top: 20px;
+    border: 3px solid #000000; 
+    border-radius: 15px;      
+    overflow: hidden;         
+}
