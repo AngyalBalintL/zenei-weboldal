@@ -73,8 +73,20 @@ h1 {
     box-sizing: border-box;
     overflow-wrap: break-word;
 }
+header.fejlec {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
 #logokeret {
     max-width: 250px;
     height: auto;
     display: block;
+}
+
+header.fejlec h1 {
+    font-size: 22px;
+    margin: 0;
 }
