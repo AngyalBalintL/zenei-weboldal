@@ -61,3 +61,13 @@ body {
     padding: 20px;
     border-radius: 30px;
 }
+h1 {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+#logokeret {
+    max-width: 250px;
+    height: auto;
+    display: block;
+}
