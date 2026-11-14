@@ -52,12 +52,13 @@ background-color: rgb(187, 241, 241);
 
 .dalszovegkepbox {
     display: flex;
-    flex-direction: column; 
-    gap: 15px;              
+    flex-direction: column; /* Ez teszi egymás alá a képeket */
+    gap: 15px;             /* Ez ad teret a két kép közé */
 }
 
 .dalszovegkepbox img {
-    width: 300px;
+    width: 100%;       /* Kitölti a dobozát, de nem lóg ki */
+    max-width: 300px;  /* De azért ne legyen óriási gépen se */
     height: auto;
     border: 5px solid #000000;
     border-radius: 8px;
