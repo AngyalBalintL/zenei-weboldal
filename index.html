@@ -1,72 +1,372 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angyal Bálint L.</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exile&display=swap" rel="stylesheet">
-<meta name="google-site-verification" content="62mPRQTasay_yt0mO2Cxubso3IrMBzTKUWcV-9-ROL0" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angyal Bálint L. | Hivatalos Weboldal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="https://angyalbalintlmusic.hu/">
 </head>
 <body>
-    <header class="fejlec">
-    <img src="kep/logo.png" alt="Logó" id="logokeret">
-     <h1>Angyal Bálint L.</h1> 
-    </header>
-     <hr>
-     <header class="navszoveg">
-    <nav id="navkozepre">
-        <a href="index.html" target="_self">Nyitólap</a> //
-        <a href="Dalaim.html" target="_self">Dalaim</a> //
-        <a href="https://www.youtube.com/redirect?event=channel_header&redir_token=QUlxb01IWk90QzV4d3k5TmQyamFjZ1VDR1VTS3xBQnJ0NjltT2tPc2t3dElWamc2eFBabkRBYXdHUnJCeFhxcW5tV2FGZHp6bmxEY0VfdjRlRnV0WlpWdmRuZXZZSGU0dW9na1dZeFBJWF85amRZdGVJME8yeDZ6MWE0aEVxeUVM&q=https%3A%2F%2Flinktr.ee%2Fangyalbalintlaszlo" target="_blank">Linkek</a>
-    </nav>
-     </header>
-    <hr>
-    <main class="navalattiegeszwebodal">
-    <div class="rolamegesz">
 
-    <h2 id="rolamfocim">
-        Rólam:
-    </h2>
-    <div class="rolamegymasmellet">
-    <p id="rolamszoveg">
-        Én 2025 december óta adok ki zenéket a streaming oldalakra, előtte is csináltam és írtam zenéket, viszont azok még csak próbák voltak, hogy belelendüljek ebbe az egészbe. Az első zenémet már azóta leszedtem, mivel azt csak azért raktam ki, hogy kapjak kritikákat, hogy min kéne javítani, és azóta fejlődött annyit a zenei tudásom, hogy azt érdemes volt leszedni.
-    </p>
-    <img src="kep/rolamfoto.jpeg" alt="Rólam fotó" width="100%">
-    </div>
-    </div>
-    <div class="zeneihangszerekfelszerelesekegeszszoveg">
-    <h2>
-        Zenei hangszerek és felszerelés:
-    </h2>
-    <p>
-        Én egy Harley Benton márkájú, telecaster formájú elektromos gitárral szoktam zenélni. Van egy M-Audio M-track duo hangkártyám, azzal veszem fel a gitáromat a BandLab DAW-ba, ahol meg megvágom a zenét, meg jól megeffektezem. Mikrofonom egy Marantz MPM-1000 stúdiómikrofon. 
-    </p>
-    </div>
-    <br>
-    <div class="hirekegesz">
-<h2>
-    Hírek:
-</h2>
-<ul>
-    <li>
-        Készül az új dal!
-  </li>
-</ul>
-<p>
-    Már a gitár része megvan az új dalnak, viszont dalszövegek is íródtak mostanában, de mindig van bennem egy olyan érzés, hogy ez a dalszöveg jobb lesz ehhez a témához, amit majd most írok (mint a legtöbb kezdő zenészbe, úgy bennem is van ez az érzés).
-</p>
-    </div>
-    </main>
-    <hr>
-    <main class="navalattiegeszwebodal">
-    <div class="spotifydoboz"> 
-        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/1GzKJjVkf3aY5k7IMEjdPO?utm_source=generator&si=db58abc6c56840da" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-    </main>
+  <!-- NAVIGÁCIÓ -->
+  <header class="navigacio">
+      <div class="keret nav-belso">
+          <a class="marka" href="index.html">
+                 <img src="img/logo.png" alt="Logó" class="marka-kep">
+                <span>ANGYAL BÁLINT L.</span>
+            </a>
+          <nav class="nav-linkek">
+              <a href="#zenek">Zenék</a>
+              <a href="#rolam">Rólam</a>
+              <a href="#felszerelesem">Felszerelésem</a>
+              <a href="#hirek">Hírek</a>
+              <a href="#linkek">Linkek</a>
+          </nav>
+          <a class="nav-gomb" href="#zenek">▶ Hallgass bele</a>
+      </div>
+  </header>
 
-    
+  <main>
+      <!-- 1. HŐS / NYITÓ SZAKASZ -->
+      <section class="fo-szakasz" id="kezdolap">
+          <div class="keret fo-elrendezes">
+              <div>
+                  <div class="kis-cimke">♫ EGYSZÁLGITÁROS ZENE • SAJÁT DALOK</div>
+                  <h1>ANGYAL<br><span class="atmenetes-szoveg">BÁLINT L.</span></h1>
+                  <p>Saját dalok. Saját történetek. Gitárhangok, ötletek és kísérletezés — ismerd meg a zenéimet, és tarts velem az alkotás útján.</p>
+                  <div class="gomb-csoport">
+                      <a class="elsodleges-gomb" href="#zenek">▶ Hallgasd a dalaimat</a>
+                      <a class="keretes-gomb" href="#rolam">Ismerj meg ↗</a>
+                  </div>
+                  <div class="fo-meta">
+                      <span><i class="pont"></i> Zenei megjelenések 2025 óta</span>
+                      <span>♫ Saját szerzemények</span>
+                  </div>
+              </div>
+
+              <!-- FORGÓ BAKELIT SZÍNPAD -->
+              <div class="bakelit-szinpad">
+                  <div class="bakelit-feny"></div>
+                  <div class="bakelit-lemez"></div>
+                  <div class="bakelit-kartya">MADE WITH MUSIC<span>Angyal Bálint L.</span></div>
+              </div>
+          </div>
+      </section>
+
+      <!-- 2. ZENÉIM SZAKASZ -->
+      <section class="szakasztér" id="zenek">
+          <div class="keret">
+              <div class="szakasz-fejlec">
+                  <div>
+                      <span class="szamozas">01 / ZENÉIM</span>
+                      <h2>Hallgasd meg a <span class="atmenetes-szoveg">dalaimat.</span></h2>
+                  </div>
+                  <p class="szakasz-leiras">Két dal, két külön történet. Indítsd el a felvételeket, vagy olvasd el a dalszövegeket.</p>
+              </div>
+
+              <div class="zene-kartya">
+                      <div class="zene-borito borito-1">
+                          <h3>PÉNTEK</h3>
+                      </div>
+                      <div class="zene-tartalom">
+                          <div class="zene-cim-sor">
+                              <h4>Péntek</h4>
+                              <span class="badge">Új megjelenés</span>
+                          </div>
+                          <p>Ez röviden arról szól, hogy milyen jó a pénteki nap, a haterekkel foglalkozni nem kell, nem idegesítenek ők.</p>
+                          <div class="kartya-gombok">
+                              <a href="https://www.youtube.com/watch?v=Y-w0nWkaMcE&list=RDY-w0nWkaMcE&start_radio=1" target="_blank" class="elsodleges-gomb">▶ Lejátszás</a>
+                             <button type="button" class="keretes-gomb nyito-gomb" onclick="var m=document.getElementById('modal-pentek'); m.style.setProperty('display','grid','important'); m.classList.add('aktiv'); m.style.setProperty('opacity','1','important'); m.style.setProperty('pointer-events','auto','important');">Dalszöveg ↗</button>
+                          </div>
+                          <div class="kartya-also">
+                              <a href="https://www.youtube.com/watch?v=Y-w0nWkaMcE&list=RDY-w0nWkaMcE&start_radio=1" target="_blank" class="keretes-gomb">YouTube ↗</a>
+                          </div>
+                      </div>
+                  </div>
+
+              <div class="kartya-grid-2">
+                  <div class="zene-kartya">
+                      <div class="zene-borito borito-1">
+                          <h3>FURCSA, DE VALÓS</h3>
+                      </div>
+                      <div class="zene-tartalom">
+                          <div class="zene-cim-sor">
+                              <h4>Furcsa, de valós</h4>
+                              <span class="badge">Saját dal</span>
+                          </div>
+                          <p>Érdekes, meglepő történelmi érdekességek zenében.</p>
+                          <div class="kartya-gombok">
+                              <a href="https://www.youtube.com/watch?v=Ql0NPVnwLD8" target="_blank" class="elsodleges-gomb">▶ Lejátszás</a>
+                              <!-- Módosítva gombra, ami nyitja a modált -->
+                              <button class="keretes-gomb nyito-gomb" data-modal="modal-furcsa">Dalszöveg ↗</button>
+                          </div>
+                          <div class="kartya-also">
+                              <a href="https://www.youtube.com/watch?v=Ql0NPVnwLD8" target="_blank" class="keretes-gomb">YouTube ↗</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="zene-kartya">
+                      <div class="zene-borito borito-2">
+                          <h3>POV: NAGY A SZÁJA</h3>
+                      </div>
+                      <div class="zene-tartalom">
+                          <div class="zene-cim-sor">
+                              <h4>POV: Nagy a szája</h4>
+                              <span class="badge">Korai megjelenés</span>
+                          </div>
+                          <p>Az első dalom, amely továbbra is elérhető a streamingplatformokon.</p>
+                          <div class="kartya-gombok">
+                              <a href="https://www.youtube.com/watch?v=bEWSBnIKj0M" target="_blank" class="elsodleges-gomb">▶ Lejátszás</a>
+                              <!-- Módosítva gombra, ami nyitja a modált -->
+                              <button class="keretes-gomb nyito-gomb" data-modal="modal-pov">Dalszöveg ↗</button>
+                          </div>
+                          <div class="kartya-also">
+                              <a href="https://www.youtube.com/watch?v=bEWSBnIKj0M" target="_blank" class="keretes-gomb">YouTube ↗</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- 3. RÓLAM SZAKASZ -->
+      <section class="szakasztér" id="rolam">
+          <div class="keret">
+              <div class="rolam-grid">
+                  <div class="illusztracio-doboz kep-doboz">
+                        <img src="img/rolamfoto.jpeg" alt="Rólam kép" class="rolam-kep">
+                </div>
+                  <div>
+                      <span class="szamozas">02 / RÓLAM</span>
+                      <h2>Szia, Bálint <span class="atmenetes-szoveg">vagyok.</span></h2>
+                      <p class="szoveg-margin">2025 decembere óta jelennek meg a zenéim a streamingplatformokon, de már előtte is írtam és készítettem saját dalokat. A korai próbálkozások segítettek megtanulni, hogyan alakítsam az ötleteimet kész zenévé.</p>
+                      <p class="szoveg-margin">Az egyik legelső felvételemet azóta eltávolítottam, mert sokat fejlődtem az elkészítése óta. Számomra a zenélés folyamatos tanulás és kísérletezés — minden új dal egy újabb lépés.</p>
+                      
+                      <div class="cimeke-sor">
+                          <span class="cimke-elem">🎸 Gitár</span>
+                          <span class="cimke-elem">🎙 Otthoni felvételek</span>
+                          <span class="cimke-elem">🎛 Zenei szerkesztés</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- 4. FELSZERELÉSEM SZAKASZ -->
+      <section class="szakasztér" id="felszerelesem">
+          <div class="keret">
+              <div class="szakasz-fejlec">
+                  <h2>A kis <span class="atmenetes-szoveg">stúdióm.</span></h2>
+                  <p class="szakasz-leiras">Az eszközök, amelyekkel ötletekből dalok lesznek.</p>
+              </div>
+
+              <div class="felszereles-grid">
+                  <div class="eszkoz-kartya">
+                      <div class="eszkoz-ikon">🎸</div>
+                      <h3>Harley Benton</h3>
+                      <p>Telecaster formájú elektromos gitár.</p>
+                  </div>
+                  <div class="eszkoz-kartya">
+                      <div class="eszkoz-ikon">🎚️</div>
+                      <h3>M-Audio M-Track Duo</h3>
+                      <p>Hangkártya a gitárfelvételekhez.</p>
+                  </div>
+                  <div class="eszkoz-kartya">
+                      <div class="eszkoz-ikon">🎙️</div>
+                      <h3>Marantz MPM-1000</h3>
+                      <p>Stúdiómikrofon a hangrögzítéshez.</p>
+                  </div>
+                  <div class="eszkoz-kartya">
+                      <div class="eszkoz-ikon">💻</div>
+                      <h3>BandLab</h3>
+                      <p>Felvétel, vágás, effektek és hangszerkesztés.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- 5. HÍREK SZAKASZ -->
+      <section class="szakasztér" id="hirek">
+          <div class="keret">
+              <span class="szamozas">04 / FRISS HÍREK</span>
+              <h2>Mi készül <span class="atmenetes-szoveg">most?</span></h2>
+
+              <div class="hirek-doboz" style="margin-top: 20px;">
+                  <div class="hirek-fej">
+                      <span class="badge">MEGJELENÉS</span>
+                      <span class="csillag-ikon">🚀</span>
+                  </div>
+                  <h3>Itt a legújabb frissítés!</h3>
+                  <p>Megjelent az új dalom, egészen pontosan a Péntek. (2026. 11. 15.)</p>
+              </div>
+
+              <div class="hirek-doboz">
+                  <div class="hirek-fej">
+                      <span class="badge">MŰHELYNAPLÓ</span>
+                      <span class="csillag-ikon">✨</span>
+                  </div>
+                  <h3>Új dalon dolgozom! 🎵</h3>
+                  <p>Az új dal gitárrésze már elkészült, és dalszövegötletek is születnek. Még alakul, melyik szöveg illik legjobban a zenéhez — az alkotás folytatódik.</p>
+              </div>
+          </div>
+      </section>
+
+      <!-- 6. KAPCSOLAT / LINKEK SZAKASZ -->
+      <section class="szakasztér" id="linkek">
+          <div class="keret kapcsolat-doboz">
+              <div>
+                  <h2>Maradjunk kapcsolatban.</h2>
+                  <p>Kövess a zenei platformokon, hogy ne maradj le a következő dalról.</p>
+              </div>
+              <div class="gomb-csoport">
+                  <a class="keretes-gomb" href="https://linktr.ee/angyalbalintlaszlo" target="_blank">Összes link ↗</a>
+                  <a class="keretes-gomb" href="https://www.youtube.com/@AngyalBalintL.official/videos" target="_blank">YouTube ↗ </a>
+              </div>
+          </div>
+      </section>
+  </main>
+
+  <!-- LÁBLÉC -->
+  <footer>
+      <div class="keret lablec-belso">
+          <p>© 2026 Angyal Bálint L. Minden jog fenntartva.</p>
+          <p>Zenéből. Szenvedéllyel. ♫</p>
+      </div>
+  </footer>
+
+  <!-- DALSZÖVEG MODÁLIS ABLAKOK -->
+  <div class="modal-hatter" id="modal-furcsa">
+      <div class="modal-doboz">
+          <button type="button" class="modal-bezaro" onclick="var m = document.getElementById('modal-pentek'); m.classList.remove('aktiv'); m.style.opacity = '0'; m.style.pointerEvents = 'none'; setTimeout(function(){ m.style.display = 'none'; }, 300);">&times;</button>
+          <h2>Furcsa, de valós — dalszöveg</h2>
+          <div class="modal-szoveg">
+              <p><strong>1. versszak</strong><br>
+              Azt hiszed, hogy nem valós,<br>
+              Hát rosszul gondolod,<br>
+              Bizony régen volt,<br>
+              Mert kihalt ez a dolog.</p>
+
+              <p><strong>Refrén</strong><br>
+              Régen sokminden más volt,<br>
+              Hiába furcsa manapság,<br>
+              Gladiátorokból való,<br>
+              Vér az gyógyszer volt anno,<br>
+              Fiatalokból származó,<br>
+              Epilepsziára ható.</p>
+
+              <p><strong>2. versszak</strong><br>
+              Nem volt akkor mosószer,<br>
+              Mosógép sem még,<br>
+              Vizelet volt a kulcs,<br>
+              Ami fullókból való,<br>
+              Azzal mosták például,<br>
+              A gyapjútógátakat,<br>
+              Ez volt akkoriban,<br>
+              A mosószer világa.</p>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal-hatter" id="modal-pov">
+      <div class="modal-doboz">
+          <button class="modal-bezaro">&times;</button>
+          <h2>POV: Nagy a szája — dalszöveg</h2>
+          <div class="modal-szoveg">
+              <p><strong>1. versszak</strong><br>
+              Te aztán nekem mondod a magadét,<br>
+              Belém is ütsz, én asszondom atyaég,<br>
+              Azt hiszed, hogy ezt komolyan értettem,<br>
+              Irónia volt ez, hát ezt is miért tettem,<br>
+              Úgy érzed, mintha boxmeccsen lennél,<br>
+              Te aztán engem még le is kennél,<br>
+              A földre, meg a falra, mint egy festmény,<br>
+              Úgy viselkedsz, mint egy hatalmas kemény.</p>
+
+              <p><strong>Refrén</strong><br>
+              Nyugodtan csináld tovább, ez a beszéd,<br>
+              Te neked fog fájni nem soká, mer’ én,<br>
+              Nem állok bele ebbe a dumába,<br>
+              Ilyenkor neki is jár a szája,<br>
+              Aztán neked állj feljebb, megint,<br>
+              Mert te kapsz ezért a hazádtól verést.</p>
+          </div>
+      </div>
+      
+  </div>
+  <div class="modal-hatter" id="modal-pentek">
+      <div class="modal-doboz">
+          <button type="button" class="modal-bezaro" onclick="var m=document.getElementById('modal-pentek'); m.classList.remove('aktiv'); m.style.setProperty('display','none','important'); m.style.setProperty('opacity','0','important'); m.style.setProperty('pointer-events','none','important');">&times;</button>
+          <h2>Péntek — dalszöveg</h2>
+          <div class="modal-szoveg">
+              <p><strong>1. versszak</strong><br>
+              
+                Elindulok haza az iskolából,<br>
+                A spanokkal, meg néhány haterrel,<br>
+                A haterekkel foglalkozni nem kell,<br>
+                Más jut eszembe nekem péntek reggel.</p>
+
+                <p><strong>Refrén</strong><br>
+                Jön a hétvége, lazulás,<br>
+                Na meg persze a tanulás,<br>
+                De nem kell az iskolába bent tölteni,<br>
+                Időt és a hatereket tűrni,<br>
+                Sem kell élőben nekem,<br>
+                Az üzijük meg nem számít nekem.</p>
+
+                <p><strong>2. versszak</strong><br>
+                Azt hiszik a haterek, hogy pánikba esek,<br>
+                Ha piszkálnak vagy fáj ez nekem,<br>
+                Tévednek ebben, nem is kevésbé,<br>
+                Mert pénteken is magukat minősítik hülyévé.</p>
+          </div>
+      </div>
+  </div>
+
+  <!-- JAVASCRIPT A POPUP MŰKÖDÉSÉHEZ -->
+  <script>
+document.querySelectorAll('[data-modal]').forEach(function(gomb) {
+  gomb.onclick = function() {
+    var cél = document.getElementById(gomb.getAttribute('data-modal'));
+    if (cél) {
+      cél.classList.add('aktiv');
+      cél.style.setProperty('display', 'grid', 'important');
+      cél.style.setProperty('opacity', '1', 'important');
+      cél.style.setProperty('pointer-events', 'auto', 'important');
+    }
+  };
+});
+
+document.querySelectorAll('.modal-bezaro').forEach(function(x) {
+  x.onclick = function() {
+    var ablak = x.closest('.modal-hatter');
+    if (ablak) {
+      ablak.classList.remove('aktiv');
+      ablak.style.setProperty('display', 'none', 'important');
+      ablak.style.setProperty('opacity', '0', 'important');
+      ablak.style.setProperty('pointer-events', 'none', 'important');
+    }
+  };
+});
+
+document.querySelectorAll('.modal-hatter').forEach(function(hatter) {
+  hatter.onclick = function(e) {
+    if (e.target === hatter) {
+      hatter.classList.remove('aktiv');
+      hatter.style.setProperty('display', 'none', 'important');
+      hatter.style.setProperty('opacity', '0', 'important');
+      hatter.style.setProperty('pointer-events', 'none', 'important');
+    }
+  };
+});
+
+document.querySelectorAll('.modal-hatter').forEach(function(hatter) {
+  hatter.onclick = function(e) {
+    if (e.target === hatter) hatter.classList.remove('aktiv');
+  };
+});
+</script>
+
 </body>
 </html>
